@@ -1,0 +1,19 @@
+# Large upstream data — never commit. See README for how to obtain.
+data/*
+!data/README.md
+*.pkl
+*.jsonl
+*.json
+!results/*.json
+!lineage_attack_tags.json
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+~$*
