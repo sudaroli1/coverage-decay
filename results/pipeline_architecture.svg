@@ -1,0 +1,99 @@
+<svg viewBox="0 0 1130 762" xmlns="http://www.w3.org/2000/svg" width="1130" height="762" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b6862"/>
+    </marker>
+    <marker id="ac" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a3a1c"/>
+    </marker>
+  </defs>
+  <style>
+    .bx{fill:#f7f6f3;stroke:#d5d2cb;stroke-width:1}
+    .bxa{fill:#fbf1ec;stroke:#8a3a1c;stroke-width:1.6}
+    .hd{font-size:12px;font-weight:700;fill:#1a1a18}
+    .bd{font-size:10.5px;fill:#1a1a18}
+    .mu{font-size:9.5px;fill:#6b6862}
+    .ac{font-size:10.5px;font-weight:700;fill:#8a3a1c}
+    .ttl{font-size:15px;font-weight:700;fill:#1a1a18}
+    .sec{font-size:9px;font-weight:700;fill:#6b6862;letter-spacing:.12em}
+    .ln{stroke:#6b6862;stroke-width:1.1;fill:none;marker-end:url(#a)}
+    .lna{stroke:#8a3a1c;stroke-width:1.4;fill:none;marker-end:url(#ac);stroke-dasharray:5 4}
+    .mono{font-family:'Courier New',monospace}
+  </style>
+  <rect x="0" y="0" width="1130" height="762" fill="#ffffff"/>
+  <text x="30" y="24" class="ttl">Detection-rule exclusion ratchet — measurement pipeline</text>
+  <text x="30" y="40" class="mu">SigmaHQ corpus · 2,355 lineages · 8,234 revision steps</text>
+  <text x="30" y="66" class="sec">INPUTS</text>
+  <rect x="30" y="74" width="336" height="60" rx="4" class="bx"/>
+  <text x="44" y="94" class="hd">SigmaHQ git history</text>
+  <text x="44" y="111" class="bd">rule versions, commit dates</text>
+  <text x="44" y="126" class="mu">2,355 lineages tracked across renames</text>
+  <rect x="392" y="74" width="336" height="60" rx="4" class="bx"/>
+  <text x="406" y="94" class="hd">PGIR signatures</text>
+  <text x="406" y="111" class="bd">predicates tagged CTX:POS / CTX:NEG</text>
+  <text x="406" y="126" class="mu">8,234 steps (version_a to version_b)</text>
+  <rect x="754" y="74" width="336" height="60" rx="4" class="bx"/>
+  <text x="768" y="94" class="hd">ATT&amp;CK tags</text>
+  <text x="768" y="111" class="bd">joined via Sigma rule UUID</text>
+  <text x="768" y="126" class="mu">329 techniques · 84 covered by one rule</text>
+  <path class="ln" d="M198,134 L198,160"/><path class="ln" d="M560,134 L560,160"/><path class="ln" d="M922,134 L922,160"/>
+  <text x="30" y="180" class="sec">CLASSIFY EACH REVISION STEP</text>
+  <rect x="30" y="188" width="1060" height="92" rx="4" class="bxa"/>
+  <text x="44" y="208" class="hd">src/detector.py</text>
+  <text x="44" y="228" class="bd">1 · parse signature to <tspan class="mono">distinct</tspan> predicates, split CTX:POS (selection) / CTX:NEG (exclusion)</text>
+  <text x="44" y="246" class="bd">2 · delta predicates and delta literal values, both sides — value-level growth is invisible to predicate counting</text>
+  <text x="44" y="264" class="ac">3 · suppression = exclusion grew AND no new selection predicate   (catch-all EQ '*' does not count as coverage)</text>
+  <path class="ln" d="M560,280 L560,306"/>
+  <text x="30" y="300" class="sec">OUTCOMES</text>
+  <rect x="30" y="308" width="202" height="50" rx="4" class="bxa"/>
+  <text x="44" y="328" class="hd">suppression</text><text x="44" y="346" class="ac">1,642</text>
+  <rect x="244" y="308" width="202" height="50" rx="4" class="bx"/>
+  <text x="258" y="328" class="hd">relaxation</text><text x="258" y="346" class="bd">304</text>
+  <rect x="458" y="308" width="202" height="50" rx="4" class="bx"/>
+  <text x="472" y="328" class="hd">expansion-with-guard</text><text x="472" y="346" class="bd">73</text>
+  <rect x="672" y="308" width="202" height="50" rx="4" class="bx"/>
+  <text x="686" y="328" class="hd">rewrite</text><text x="686" y="346" class="bd">354 <tspan class="mu">typos, renames</tspan></text>
+  <rect x="886" y="308" width="204" height="50" rx="4" class="bx"/>
+  <text x="900" y="328" class="hd">no exclusion change</text><text x="900" y="346" class="bd">5,861</text>
+  <path class="ln" d="M131,358 L131,384 L201,384 L201,410"/>
+  <path class="ln" d="M131,358 L131,384 L560,384 L560,410"/>
+  <path class="ln" d="M131,358 L131,384 L917,384 L917,410"/>
+  <path class="ln" d="M345,358 L345,376 L201,376 L201,410"/>
+  <text x="30" y="404" class="sec">ANALYSES</text>
+  <rect x="30" y="412" width="342" height="150" rx="4" class="bx"/>
+  <text x="44" y="432" class="hd">A · The ratchet</text>
+  <text x="44" y="454" class="bd">exclusions added vs withdrawn</text>
+  <text x="44" y="482" class="ac" font-size="19">5.4 : 1</text>
+  <text x="44" y="504" class="bd">1,642 added · 304 withdrawn</text>
+  <text x="44" y="526" class="mu">value-level mechanism is invisible to</text>
+  <text x="44" y="539" class="mu">structural diffing — prior work sees</text>
+  <text x="44" y="552" class="mu">only new predicates</text>
+  <rect x="388" y="412" width="342" height="150" rx="4" class="bx"/>
+  <text x="402" y="432" class="hd">B · Persistence (survival)</text>
+  <text x="402" y="454" class="bd">Kaplan-Meier, n = 1,584</text>
+  <text x="402" y="472" class="bd">203 removed · 1,381 censored (87.2%)</text>
+  <text x="402" y="497" class="ac" font-size="15">86.7% still in place at 3 years</text>
+  <text x="402" y="517" class="bd">median undefined · RMST 978/1,095 d</text>
+  <text x="402" y="534" class="bd">52% of removals inside 180 days</text>
+  <text x="402" y="552" class="mu">log-rank vs coverage redundancy: p = 0.49 (null)</text>
+  <rect x="746" y="412" width="344" height="150" rx="4" class="bx"/>
+  <text x="760" y="432" class="hd">C · Forgeability</text>
+  <text x="760" y="450" class="mu mono">src/forgeability.py</text>
+  <text x="760" y="470" class="bd">3,606 field-additions, 98.9% on</text>
+  <text x="760" y="484" class="bd">influenceable attribute classes</text>
+  <text x="760" y="504" class="bd">5,336 path values, anchor analysis</text>
+  <text x="760" y="527" class="ac" font-size="15">64.1% enterable unprivileged</text>
+  <text x="760" y="548" class="bd">33.0% need privileged write <tspan class="mu">(Dacier's case)</tspan></text>
+  <path class="ln" d="M201,562 L201,594"/><path class="ln" d="M559,562 L559,594"/><path class="ln" d="M918,562 L918,594"/>
+  <text x="30" y="588" class="sec">VALIDATION</text>
+  <rect x="30" y="596" width="1060" height="66" rx="4" class="bx"/>
+  <text x="44" y="616" class="hd">120-item blinded sample — 60 detected suppressions, 60 stratified negatives</text>
+  <text x="44" y="634" class="bd">human labels diffs with commit messages withheld, giving precision / recall adjudicated against the detector</text>
+  <text x="44" y="651" class="mu">disagreement review found 4 rater slips and 1 systematic detector fault · 6 corrections fed back in total</text>
+  <path class="lna" d="M1090,629 L1112,629 L1112,234 L1094,234"/>
+  <text x="1010" y="196" class="ac" font-size="9.5" text-anchor="end">feedback: 6 corrections</text>
+  <path class="ln" d="M560,662 L560,688"/>
+  <rect x="30" y="690" width="1060" height="52" rx="4" class="bx"/>
+  <text x="44" y="710" class="hd">OUTPUTS</text>
+  <text x="44" y="729" class="bd mono">results/2026-08-20.md · fig3_persistence · fig4_null_coverage · field_classification.csv · manuscript sections 4-5</text>
+</svg>
