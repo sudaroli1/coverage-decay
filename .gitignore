@@ -21,3 +21,4 @@ Thumbs.db
 # Manuscript. The paper is not distributed from this repository; see README.
 paper/
 results/*_draft.*
+NEXT.md
