@@ -1,5 +1,7 @@
 # The Exclusion Ratchet
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22107282.svg)](https://doi.org/10.5281/zenodo.22107282)
+
 Measuring how false-positive suppression accumulates and persists in detection-rule
 repositories, across nine years of the public SigmaHQ corpus.
 
@@ -120,8 +122,9 @@ interpreted by a model. Tool, model version and dates are recorded in `AI_USE.md
 
 ## Citing
 
-Each release is archived on Zenodo and carries its own DOI; cite the version you used.
-`CITATION.cff` holds the metadata, and GitHub's *Cite this repository* button renders it.
+Each release is archived on Zenodo and carries a DOI; cite the version you used. The
+release accompanying the paper is v1.0.0, doi:10.5281/zenodo.22107282. `CITATION.cff`
+holds the metadata, and GitHub's *Cite this repository* button renders it.
 
 ## Licence
 

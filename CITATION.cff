@@ -10,6 +10,9 @@ authors:
     orcid: https://orcid.org/0000-0001-8270-6223
     affiliation: Independent Researcher, Bengaluru, India
 repository-code: https://github.com/sudaroli1/coverage-decay
+doi: 10.5281/zenodo.22107282
+version: v1.0.0
+date-released: '2026-08-26'
 license: MIT
 abstract: >-
   Analysis pipeline, derived data and validation record for a study of
