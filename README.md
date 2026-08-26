@@ -44,7 +44,11 @@ snapshot of 10 April 2026.
     notebooks/analysis.ipynb  the derivation record: every CSV in results/ comes from here
     results/              derived data, figures, and the full session record
     results/validation/   the 120-item sample, its labels, and the worksheet
-    docs/                 lab notebook, explainers, and the superseded structural classifier
+    docs/                 the superseded structural classifier, kept as the record of what failed
+
+The manuscript is not in this repository. A preprint will be linked here on posting;
+the published version will be linked by DOI. What is here is the pipeline, the derived
+data and the validation record — everything needed to check the numbers in the paper.
 
 **Definitions live in `src/detector.py` and are imported, never restated.** Divergence
 between a cell-local copy of a definition and the module caused two of the nine

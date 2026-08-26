@@ -17,3 +17,6 @@ __pycache__/
 .DS_Store
 Thumbs.db
 ~$*
+
+# Manuscript. The paper is not distributed from this repository; see README.
+paper/
