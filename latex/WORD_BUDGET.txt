@@ -1,0 +1,81 @@
+    SECTION / subsection                                  words
+================================================================
+    INTRODUCTION                                            919
+      The tuning problem                                    284
+      What prior work established, and what it could n      154
+      Why structural analysis cannot locate suppressio      224
+      Contributions                                         256
+
+    BACKGROUND                                             2419
+      Detection rules and the Sigma format                  595  <--
+      How suppression is expressed                          999  <--
+      ATT&CK tagging and the corpus                         775
+
+    RELATED WORK                                           1412
+      How detection rules are tuned in practice             384
+      The alert stream, and the responses to it             301
+      What the detection artefacts themselves record        660  <--
+
+    METHOD                                                 4101
+      Corpus and reproduction                              1030  <--
+      Detecting suppression                                 987  <--
+      What the detector cannot see                          367
+      Classifying what an exclusion is written on           487
+      Mapping lineages to ATT&CK techniques                 268
+      Measuring persistence                                 429
+      Validation                                            436
+
+    RESULTS                                                3341
+      Exclusions accumulate                                 314
+      Two mechanisms, one of them invisible                 157
+      Exclusions are effectively permanent                  277
+      Persistence does not depend on coverage redundan      265
+      What the exclusions are written on                    685  <--
+      Temporal structure                                    481
+      Worked example                                        527  <--
+      Validation results                                    229
+      Corroboration from commit messages                    325
+
+    DISCUSSION                                             1340
+      Why exclusions are not revisited                      410
+      What this means for the people who run these rul      217
+      Public discoverability                                188
+      Implications for measurement                          184
+      What a remedy would look like, and what it canno      340
+
+    THREATS TO VALIDITY                                      79
+
+    CONCLUSION                                              628
+      CRediT authorship contribution statement               24
+      Declaration of competing interest                      23
+      Funding                                                17
+      Ethics                                                 18
+      Data availability                                      60
+      Acknowledgements                                       45
+      Declaration of generative AI and AI-assisted tec      186
+
+================================================================
+    abstract (limit 250)                                    289
+    body prose                                            14239
+    table cells (counted separately)                        743
+    references: 20 entries, roughly                         700
+----------------------------------------------------------------
+    TOTAL, everything                                     15971
+    target                                                12000
+    to remove                                              3971
+
+Candidates flagged above (<--), with the reason:
+  Detecting suppression
+      the formal definition; a reviewer needs it, but the two worked refinements could be compressed or moved to the repository
+  Corpus and reproduction
+      reproduction detail serves replication rather than judgement; the artefact now has a DOI and can carry it
+  Worked example
+      Figure 7 already carries the argument; the prose restates it
+  What the exclusions are written on
+      longest subsection in Results
+  Detection rules and the Sigma format
+      background for readers who already know what a SIEM is
+  How suppression is expressed
+      background; Section 1 already makes the argument
+  What the detection artefacts themselves record
+      longest subsection in Related work, eight papers

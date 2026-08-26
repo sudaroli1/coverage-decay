@@ -22,3 +22,17 @@ Thumbs.db
 paper/
 results/*_draft.*
 NEXT.md
+
+# LaTeX build products and the local class shims (see latex/README.md)
+latex/*.aux
+latex/*.bbl
+latex/*.blg
+latex/*.log
+latex/*.out
+latex/*.fls
+latex/*.fdb_latexmk
+latex/*.lol
+latex/*.toc
+latex/main.pdf
+latex/elsarticle.cls
+latex/elsarticle-harv.bst
