@@ -1,121 +1,121 @@
 item_id,lineage,version_a,version_b,arm,stratum,stratum_size,n_detected
-V001,lineage_00382,8,9,neg,relaxation,304,1642
-V002,lineage_03142,6,7,pos,detected,1642,1642
-V003,lineage_04268,3,4,neg,"rewrite, no net change",354,1642
-V004,lineage_00855,6,7,pos,detected,1642,1642
-V005,lineage_00799,1,2,pos,detected,1642,1642
-V006,lineage_00902,46,47,pos,detected,1642,1642
-V007,lineage_02580,43,44,neg,relaxation,304,1642
-V008,lineage_01563,11,12,neg,no exclusion change,5861,1642
-V009,lineage_01286,17,18,neg,expansion-with-guard,73,1642
-V010,lineage_02930,19,20,neg,no exclusion change,5861,1642
-V011,lineage_02396,23,24,pos,detected,1642,1642
-V012,lineage_03092,4,5,pos,detected,1642,1642
-V013,lineage_02389,14,15,pos,detected,1642,1642
-V014,lineage_00894,2,3,pos,detected,1642,1642
-V015,lineage_00523,16,17,pos,detected,1642,1642
-V016,lineage_04023,22,23,neg,no exclusion change,5861,1642
-V017,lineage_00856,9,10,neg,no exclusion change,5861,1642
-V018,lineage_01480,20,21,pos,detected,1642,1642
-V019,lineage_00310,10,11,neg,"rewrite, no net change",354,1642
-V020,lineage_04251,1,2,pos,detected,1642,1642
-V021,lineage_02148,7,8,neg,no exclusion change,5861,1642
-V022,lineage_03578,8,9,neg,"rewrite, no net change",354,1642
-V023,lineage_01067,34,35,pos,detected,1642,1642
-V024,lineage_04541,11,12,neg,"rewrite, no net change",354,1642
-V025,lineage_01064,14,15,neg,expansion-with-guard,73,1642
-V026,lineage_02475,2,3,pos,detected,1642,1642
-V027,lineage_02580,19,20,pos,detected,1642,1642
-V028,lineage_03332,10,11,neg,"rewrite, no net change",354,1642
-V029,lineage_01968,9,10,neg,expansion-with-guard,73,1642
-V030,lineage_02580,18,19,pos,detected,1642,1642
-V031,lineage_00681,20,21,pos,detected,1642,1642
-V032,lineage_03099,6,7,neg,no exclusion change,5861,1642
-V033,lineage_02910,18,19,pos,detected,1642,1642
-V034,lineage_01297,14,15,neg,no exclusion change,5861,1642
-V035,lineage_03238,3,4,pos,detected,1642,1642
-V036,lineage_04067,16,17,neg,"rewrite, no net change",354,1642
-V037,lineage_03332,4,5,pos,detected,1642,1642
-V038,lineage_04558,1,2,neg,relaxation,304,1642
-V039,lineage_00558,12,13,pos,detected,1642,1642
-V040,lineage_01538,2,3,pos,detected,1642,1642
-V041,lineage_01994,3,4,neg,no exclusion change,5861,1642
-V042,lineage_01305,31,32,pos,detected,1642,1642
-V043,lineage_02527,15,16,neg,no exclusion change,5861,1642
-V044,lineage_03179,17,18,neg,no exclusion change,5861,1642
-V045,lineage_00397,6,7,neg,"rewrite, no net change",354,1642
-V046,lineage_02467,14,15,pos,detected,1642,1642
-V047,lineage_01178,5,6,neg,relaxation,304,1642
-V048,lineage_02006,23,24,pos,detected,1642,1642
-V049,lineage_02133,18,19,pos,detected,1642,1642
-V050,lineage_03848,2,3,neg,no exclusion change,5861,1642
-V051,lineage_00305,2,3,neg,no exclusion change,5861,1642
-V052,lineage_03695,12,13,pos,detected,1642,1642
-V053,lineage_04652,21,22,pos,detected,1642,1642
-V054,lineage_02292,36,37,pos,detected,1642,1642
-V055,lineage_00219,7,8,neg,no exclusion change,5861,1642
-V056,lineage_00976,29,30,pos,detected,1642,1642
-V057,lineage_00539,1,2,neg,relaxation,304,1642
-V058,lineage_01551,4,5,pos,detected,1642,1642
-V059,lineage_00628,12,13,neg,"rewrite, no net change",354,1642
-V060,lineage_01326,1,2,neg,no exclusion change,5861,1642
-V061,lineage_04408,5,6,pos,detected,1642,1642
-V062,lineage_03514,16,17,pos,detected,1642,1642
-V063,lineage_04243,12,13,pos,detected,1642,1642
-V064,lineage_03437,13,14,pos,detected,1642,1642
-V065,lineage_00307,12,13,pos,detected,1642,1642
-V066,lineage_01143,1,2,pos,detected,1642,1642
-V067,lineage_03437,17,18,pos,detected,1642,1642
-V068,lineage_00887,3,4,neg,"rewrite, no net change",354,1642
-V069,lineage_00293,16,17,pos,detected,1642,1642
-V070,lineage_00393,6,7,neg,no exclusion change,5861,1642
-V071,lineage_02075,7,8,neg,relaxation,304,1642
-V072,lineage_01872,24,25,pos,detected,1642,1642
-V073,lineage_03355,5,6,neg,no exclusion change,5861,1642
-V074,lineage_02073,12,13,neg,no exclusion change,5861,1642
-V075,lineage_02560,21,22,pos,detected,1642,1642
-V076,lineage_01812,8,9,pos,detected,1642,1642
-V077,lineage_01348,11,12,pos,detected,1642,1642
-V078,lineage_01960,10,11,neg,relaxation,304,1642
-V079,lineage_00446,7,8,neg,"rewrite, no net change",354,1642
-V080,lineage_01985,5,6,pos,detected,1642,1642
-V081,lineage_01274,1,2,pos,detected,1642,1642
-V082,lineage_03437,28,29,pos,detected,1642,1642
-V083,lineage_02484,9,10,pos,detected,1642,1642
-V084,lineage_00115,19,20,neg,relaxation,304,1642
-V085,lineage_03105,22,23,neg,relaxation,304,1642
-V086,lineage_03439,13,14,neg,"rewrite, no net change",354,1642
-V087,lineage_01067,39,40,neg,relaxation,304,1642
-V088,lineage_01305,12,13,neg,relaxation,304,1642
-V089,lineage_03092,5,6,pos,detected,1642,1642
-V090,lineage_00883,12,13,pos,detected,1642,1642
-V091,lineage_03242,1,2,neg,expansion-with-guard,73,1642
-V092,lineage_00883,17,18,neg,"rewrite, no net change",354,1642
-V093,lineage_02930,17,18,pos,detected,1642,1642
-V094,lineage_04433,12,13,pos,detected,1642,1642
-V095,lineage_01399,7,8,pos,detected,1642,1642
-V096,lineage_02195,7,8,neg,expansion-with-guard,73,1642
-V097,lineage_03255,5,6,pos,detected,1642,1642
-V098,lineage_02167,15,16,neg,expansion-with-guard,73,1642
-V099,lineage_03093,9,10,pos,detected,1642,1642
-V100,lineage_02930,9,10,pos,detected,1642,1642
-V101,lineage_00427,1,2,neg,relaxation,304,1642
-V102,lineage_02396,31,32,pos,detected,1642,1642
-V103,lineage_04433,10,11,pos,detected,1642,1642
-V104,lineage_00883,25,26,pos,detected,1642,1642
-V105,lineage_01809,5,6,neg,"rewrite, no net change",354,1642
-V106,lineage_02194,25,26,pos,detected,1642,1642
-V107,lineage_02529,1,2,pos,detected,1642,1642
-V108,lineage_02290,18,19,neg,expansion-with-guard,73,1642
-V109,lineage_00883,8,9,pos,detected,1642,1642
-V110,lineage_01305,30,31,pos,detected,1642,1642
-V111,lineage_02515,2,3,pos,detected,1642,1642
-V112,lineage_00710,6,7,neg,"rewrite, no net change",354,1642
-V113,lineage_02275,28,29,pos,detected,1642,1642
-V114,lineage_02480,4,5,neg,"rewrite, no net change",354,1642
-V115,lineage_00623,8,9,pos,detected,1642,1642
-V116,lineage_02910,13,14,pos,detected,1642,1642
-V117,lineage_04225,5,6,neg,expansion-with-guard,73,1642
-V118,lineage_02481,56,57,neg,no exclusion change,5861,1642
-V119,lineage_02396,37,38,neg,relaxation,304,1642
-V120,lineage_01416,23,24,pos,detected,1642,1642
+V001,lineage_00855,10,11,pos,detected,1642,1642
+V002,lineage_02646,1,2,neg,expansion-with-guard,73,1642
+V003,lineage_02275,29,30,neg,relaxation,304,1642
+V004,lineage_04469,1,2,pos,detected,1642,1642
+V005,lineage_00305,2,3,neg,no exclusion change,5861,1642
+V006,lineage_00037,2,3,neg,no exclusion change,5861,1642
+V007,lineage_02910,20,21,pos,detected,1642,1642
+V008,lineage_02580,30,31,neg,"rewrite, no net change",354,1642
+V009,lineage_04541,11,12,neg,"rewrite, no net change",354,1642
+V010,lineage_02580,38,39,pos,detected,1642,1642
+V011,lineage_00755,8,9,neg,"rewrite, no net change",354,1642
+V012,lineage_01427,3,4,pos,detected,1642,1642
+V013,lineage_03105,11,12,pos,detected,1642,1642
+V014,lineage_04433,10,11,pos,detected,1642,1642
+V015,lineage_03405,5,6,pos,detected,1642,1642
+V016,lineage_01272,10,11,neg,"rewrite, no net change",354,1642
+V017,lineage_00450,2,3,neg,"rewrite, no net change",354,1642
+V018,lineage_03930,8,9,pos,detected,1642,1642
+V019,lineage_00498,25,26,pos,detected,1642,1642
+V020,lineage_03054,27,28,neg,no exclusion change,5861,1642
+V021,lineage_03503,1,2,pos,detected,1642,1642
+V022,lineage_01067,1,2,neg,"rewrite, no net change",354,1642
+V023,lineage_01652,30,31,pos,detected,1642,1642
+V024,lineage_03332,25,26,pos,detected,1642,1642
+V025,lineage_02167,22,23,pos,detected,1642,1642
+V026,lineage_04472,5,6,pos,detected,1642,1642
+V027,lineage_04225,5,6,neg,expansion-with-guard,73,1642
+V028,lineage_01305,12,13,neg,relaxation,304,1642
+V029,lineage_02290,18,19,neg,expansion-with-guard,73,1642
+V030,lineage_03927,13,14,pos,detected,1642,1642
+V031,lineage_00883,25,26,pos,detected,1642,1642
+V032,lineage_02527,15,16,neg,no exclusion change,5861,1642
+V033,lineage_01652,34,35,neg,expansion-with-guard,73,1642
+V034,lineage_02750,1,2,neg,"rewrite, no net change",354,1642
+V035,lineage_02442,7,8,pos,detected,1642,1642
+V036,lineage_00883,7,8,pos,detected,1642,1642
+V037,lineage_02396,31,32,pos,detected,1642,1642
+V038,lineage_01563,11,12,neg,no exclusion change,5861,1642
+V039,lineage_02148,7,8,neg,no exclusion change,5861,1642
+V040,lineage_01994,3,4,neg,no exclusion change,5861,1642
+V041,lineage_03855,4,5,pos,detected,1642,1642
+V042,lineage_00219,10,11,pos,detected,1642,1642
+V043,lineage_03355,5,6,neg,no exclusion change,5861,1642
+V044,lineage_03523,3,4,pos,detected,1642,1642
+V045,lineage_03099,6,7,neg,no exclusion change,5861,1642
+V046,lineage_02667,10,11,neg,no exclusion change,5861,1642
+V047,lineage_00710,13,14,pos,detected,1642,1642
+V048,lineage_02356,11,12,pos,detected,1642,1642
+V049,lineage_02643,18,19,pos,detected,1642,1642
+V050,lineage_00385,9,10,pos,detected,1642,1642
+V051,lineage_02396,37,38,neg,relaxation,304,1642
+V052,lineage_01293,1,2,pos,detected,1642,1642
+V053,lineage_00645,13,14,pos,detected,1642,1642
+V054,lineage_01297,14,15,neg,no exclusion change,5861,1642
+V055,lineage_03283,9,10,pos,detected,1642,1642
+V056,lineage_00660,10,11,pos,detected,1642,1642
+V057,lineage_03503,2,3,pos,detected,1642,1642
+V058,lineage_03790,13,14,neg,"rewrite, no net change",354,1642
+V059,lineage_00856,9,10,neg,no exclusion change,5861,1642
+V060,lineage_00382,8,9,neg,relaxation,304,1642
+V061,lineage_03503,16,17,pos,detected,1642,1642
+V062,lineage_03036,6,7,pos,detected,1642,1642
+V063,lineage_03092,21,22,pos,detected,1642,1642
+V064,lineage_03092,20,21,pos,detected,1642,1642
+V065,lineage_00894,25,26,neg,no exclusion change,5861,1642
+V066,lineage_02292,10,11,pos,detected,1642,1642
+V067,lineage_02475,2,3,pos,detected,1642,1642
+V068,lineage_00498,11,12,pos,detected,1642,1642
+V069,lineage_03179,17,18,neg,no exclusion change,5861,1642
+V070,lineage_03835,17,18,neg,relaxation,304,1642
+V071,lineage_00594,6,7,pos,detected,1642,1642
+V072,lineage_02073,12,13,neg,no exclusion change,5861,1642
+V073,lineage_03848,2,3,neg,no exclusion change,5861,1642
+V074,lineage_03022,38,39,pos,detected,1642,1642
+V075,lineage_02269,12,13,pos,detected,1642,1642
+V076,lineage_00894,11,12,pos,detected,1642,1642
+V077,lineage_00115,19,20,neg,relaxation,304,1642
+V078,lineage_00894,29,30,pos,detected,1642,1642
+V079,lineage_02014,3,4,pos,detected,1642,1642
+V080,lineage_00298,26,27,pos,detected,1642,1642
+V081,lineage_01416,2,3,pos,detected,1642,1642
+V082,lineage_03105,22,23,neg,relaxation,304,1642
+V083,lineage_01286,17,18,neg,expansion-with-guard,73,1642
+V084,lineage_01305,31,32,pos,detected,1642,1642
+V085,lineage_02580,42,43,neg,"rewrite, no net change",354,1642
+V086,lineage_02492,6,7,pos,detected,1642,1642
+V087,lineage_02492,7,8,pos,detected,1642,1642
+V088,lineage_02167,15,16,neg,expansion-with-guard,73,1642
+V089,lineage_04243,12,13,pos,detected,1642,1642
+V090,lineage_03638,7,8,pos,detected,1642,1642
+V091,lineage_00750,16,17,pos,detected,1642,1642
+V092,lineage_02930,17,18,pos,detected,1642,1642
+V093,lineage_01067,39,40,neg,relaxation,304,1642
+V094,lineage_02529,1,2,pos,detected,1642,1642
+V095,lineage_01960,10,11,neg,relaxation,304,1642
+V096,lineage_04258,5,6,pos,detected,1642,1642
+V097,lineage_02871,1,2,pos,detected,1642,1642
+V098,lineage_01178,5,6,neg,relaxation,304,1642
+V099,lineage_04652,4,5,pos,detected,1642,1642
+V100,lineage_02195,7,8,neg,expansion-with-guard,73,1642
+V101,lineage_02075,7,8,neg,relaxation,304,1642
+V102,lineage_00054,21,22,neg,relaxation,304,1642
+V103,lineage_01968,9,10,neg,expansion-with-guard,73,1642
+V104,lineage_02931,1,2,pos,detected,1642,1642
+V105,lineage_00902,46,47,pos,detected,1642,1642
+V106,lineage_03503,3,4,pos,detected,1642,1642
+V107,lineage_02757,6,7,pos,detected,1642,1642
+V108,lineage_03092,7,8,pos,detected,1642,1642
+V109,lineage_02189,12,13,pos,detected,1642,1642
+V110,lineage_00976,27,28,pos,detected,1642,1642
+V111,lineage_03719,5,6,pos,detected,1642,1642
+V112,lineage_02923,18,19,pos,detected,1642,1642
+V113,lineage_01067,40,41,pos,detected,1642,1642
+V114,lineage_02133,18,19,pos,detected,1642,1642
+V115,lineage_04023,22,23,neg,no exclusion change,5861,1642
+V116,lineage_04558,1,2,neg,relaxation,304,1642
+V117,lineage_00103,14,15,pos,detected,1642,1642
+V118,lineage_00539,1,2,neg,relaxation,304,1642
+V119,lineage_00427,1,2,neg,relaxation,304,1642
+V120,lineage_03242,1,2,neg,expansion-with-guard,73,1642
