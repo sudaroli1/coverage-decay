@@ -46,6 +46,10 @@ snapshot of 10 April 2026.
     results/validation/   the 120-item sample, its labels, and the worksheet
     docs/                 the superseded structural classifier, kept as the record of what failed
 
+The upstream notebook is not redistributed here. Long and Evans release their code at
+their own repository under their own terms; clone it from there. Appendix A of the paper
+describes the four discrepancies found in it without reproducing it.
+
 The manuscript is not in this repository. A preprint will be linked here on posting;
 the published version will be linked by DOI. What is here is the pipeline, the derived
 data and the validation record — everything needed to check the numbers in the paper.
