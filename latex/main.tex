@@ -70,34 +70,27 @@
                      city={Bengaluru},
                      country={India}}
 
-%% ---------------------------------------------------------------------------
-%% ABSTRACT — currently 293 words against the journal's 250-word limit.
-%% Reducing it is an authorial decision and has deliberately not been attempted.
-%% ---------------------------------------------------------------------------
 \begin{abstract}
-Detection rules in security operations are continuously tuned. When a rule
-produces too many false alarms an analyst adds an exclusion, and the rule
-thereafter declines to alert in that circumstance. Each such decision is locally
-reasonable; what becomes of them collectively is not known. Recent longitudinal
-work on public detection-rule repositories established that curation does not
-converge, reporting a median restoration time of 114.5 hours for revisions that
-were later reverted --- a measure conditioned on reversion, and therefore silent
-about narrowing that is never undone. We measure that. Across nine years and
-8,234 revisions of the SigmaHQ corpus we detect suppression with a deterministic
-semantic test --- growth in the set of predicates held under negation without
+When a rule produces too many false alarms an analyst adds an exclusion, and
+the rule thereafter declines to alert in that circumstance. Each such decision
+is locally reasonable; what becomes of them collectively is not known. Recent
+longitudinal work established that curation does not converge, but measured
+restoration time only for revisions that were later reverted --- a measure
+silent about narrowing that is never undone. We measure that. Across nine
+years and 8,234 revisions of the SigmaHQ corpus we detect suppression
+semantically --- growth in the set of predicates held under negation without
 compensating growth in coverage --- and validate it against blinded hand
-labelling (precision 0.828, recall 0.911). Nothing is learned from the data: the
-test is a fixed rule over predicate sets, stated in Section~\ref{sec:detecting}
-and released as code. Exclusions were added 1,642 times and withdrawn 304, a
-ratio of 5.4 to 1 that rises to 13 to 1 at the level of the individual rule.
-Thirty-one per cent of the narrowing is invisible to structural comparison, so
-existing structural accounts of rule evolution undercount it by about a third.
-Estimated by Kaplan--Meier, 86.7 per cent of exclusions remain in force three
-years after they are added, and persistence is statistically independent of
-whether the rule is the only coverage for its ATT\&CK technique ($p = 0.49$). Of
-path-valued exclusions, 64.1 per cent can be satisfied by an unprivileged
-process that chooses a filename. Narrowing accumulates, is rarely revisited, and
-is not triaged by consequence. We give a criterion for deciding which exclusions
+labelling (precision 0.828, recall 0.911). The test is deterministic: nothing
+is learned from the data, and the definitions are released as code. Exclusions
+were added 1,642 times and withdrawn 304, a ratio of 5.4 to 1 that rises to 13
+to 1 at the level of the individual rule. Thirty-one per cent of the narrowing
+is invisible to structural comparison, which existing structural accounts
+therefore undercount. Estimated by Kaplan--Meier, 86.7 per cent of exclusions
+remain in force three years on, and persistence is independent of whether the
+rule is the only coverage for its ATT\&CK technique ($p = 0.49$). Of path-
+valued exclusions, 64.1 per cent can be satisfied by an unprivileged process
+that chooses a filename. Narrowing accumulates, is rarely revisited, and is
+not triaged by consequence. We give a criterion for deciding which exclusions
 to examine first.
 \end{abstract}
 
