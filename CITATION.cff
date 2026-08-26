@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: >-
+  coverage-decay: measuring false-positive suppression in detection
+  rule repositories
+message: If you use this software or its derived data, please cite it.
+type: software
+authors:
+  - given-names: Sudaroli
+    family-names: Dhananjeyan
+    orcid: https://orcid.org/0000-0001-8270-6223
+    affiliation: Independent Researcher, Bengaluru, India
+repository-code: https://github.com/sudaroli1/coverage-decay
+license: MIT
+abstract: >-
+  Analysis pipeline, derived data and validation record for a study of
+  what becomes of false-positive exclusions after they are added to a
+  public detection-rule repository. Suppression is detected semantically
+  by a deterministic test over the set of predicates a rule holds under
+  negation, rather than by structural comparison of rule text. Includes
+  the 120-item blinded validation sample and its labels.
+keywords:
+  - detection engineering
+  - security operations
+  - alert fatigue
+  - Sigma
+  - MITRE ATT&CK
+  - mining software repositories
+  - empirical security

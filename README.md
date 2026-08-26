@@ -118,6 +118,12 @@ validation items were discussed with an assistant during labelling and are flagg
 the released labels. No measurement reported in the paper was produced, selected or
 interpreted by a model. Tool, model version and dates are recorded in `AI_USE.md`.
 
+## Citing
+
+Each release is archived on Zenodo and carries its own DOI; cite the version you used.
+`CITATION.cff` holds the metadata, and GitHub's *Cite this repository* button renders it.
+
 ## Licence
 
-Analysis code MIT. Upstream data remains under its original licences.
+Analysis code and derived data: MIT, see `LICENSE`. The upstream inputs are not
+distributed here and remain under their own terms.
