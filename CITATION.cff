@@ -21,6 +21,21 @@ abstract: >-
   by a deterministic test over the set of predicates a rule holds under
   negation, rather than by structural comparison of rule text. Includes
   the 120-item blinded validation sample and its labels.
+preferred-citation:
+  type: article
+  title: >-
+    The Exclusion Ratchet: False-Positive Suppression Accumulates and
+    Persists in Detection Rule Repositories
+  authors:
+    - given-names: Sudaroli
+      family-names: Dhananjeyan
+      orcid: https://orcid.org/0000-0001-8270-6223
+    - given-names: Kumaran
+      family-names: U
+  year: 2026
+  doi: 10.48550/arXiv.2608.31062
+  url: https://arxiv.org/abs/2608.31062
+  notes: Preprint (arXiv:2608.31062); a version is under review at Computers & Security.
 keywords:
   - detection engineering
   - security operations

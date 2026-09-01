@@ -1,5 +1,6 @@
 # The Exclusion Ratchet
 
+[![arXiv](https://img.shields.io/badge/arXiv-2608.31062-b31b1b.svg)](https://arxiv.org/abs/2608.31062)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22107282.svg)](https://doi.org/10.5281/zenodo.22107282)
 
 Measuring how false-positive suppression accumulates and persists in detection-rule
@@ -52,9 +53,11 @@ The upstream notebook is not redistributed here. Long and Evans release their co
 their own repository under their own terms; clone it from there. Appendix A of the paper
 describes the four discrepancies found in it without reproducing it.
 
-The manuscript is not in this repository. A preprint will be linked here on posting;
-the published version will be linked by DOI. What is here is the pipeline, the derived
-data and the validation record — everything needed to check the numbers in the paper.
+The manuscript is not in this repository. The preprint is on arXiv
+(arXiv:2608.31062, https://arxiv.org/abs/2608.31062); a version is under review at
+Computers & Security, and the published version will be linked by DOI when it appears.
+What is here is the pipeline, the derived data and the validation record — everything
+needed to check the numbers in the paper.
 
 **Definitions live in `src/detector.py` and are imported, never restated.** Divergence
 between a cell-local copy of a definition and the module caused two of the nine
@@ -122,9 +125,16 @@ interpreted by a model. Tool, model version and dates are recorded in `AI_USE.md
 
 ## Citing
 
-Each release is archived on Zenodo and carries a DOI; cite the version you used. The
-release accompanying the paper is v1.0.0, doi:10.5281/zenodo.22107282. `CITATION.cff`
-holds the metadata, and GitHub's *Cite this repository* button renders it.
+To cite the **paper**, cite the preprint:
+
+> Dhananjeyan, S., & Kumaran, U. (2026). The Exclusion Ratchet: False-Positive
+> Suppression Accumulates and Persists in Detection Rule Repositories.
+> arXiv:2608.31062. https://doi.org/10.48550/arXiv.2608.31062
+
+To cite the **code and data**, cite the archived release: each is archived on Zenodo
+and carries its own DOI; the release accompanying the paper is v1.0.0,
+doi:10.5281/zenodo.22107282. `CITATION.cff` holds the metadata, and GitHub's
+*Cite this repository* button renders it.
 
 ## Licence
 
